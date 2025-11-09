@@ -1,3 +1,5 @@
+@import url(slider.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -228,6 +230,7 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 100px;
 }
 
+
 .banner-contact .banner--content{
     margin-top: 6400px;
 }
@@ -444,6 +447,19 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 15px;
 }
 
+.derecho a {
+    text-decoration: none;
+    color: white;
+}
+
+.derecho a:hover{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    transition:all .5s ease;
+}
+
 /* Responsive del footer */
 @media screen and (max-width:991px) {
     .footer-row{
@@ -472,6 +488,13 @@ h1,h2,h3,h4,h5,h6{
         margin-left: -280px;
         margin-top: 250px;
     }
+
+    
+    #contactenos{
+        margin-top: 11820px;
+        /* background: purple; */
+    }
+
 
     .banner-nosotros{
         margin-top: .05px;
@@ -520,6 +543,10 @@ h1,h2,h3,h4,h5,h6{
         margin-left: -300px;
     }
 
+    #contactenos{
+        margin-top: 12170px;
+    }
+
     .banner-contact .banner--content{
         margin-top: 11110px;
         color: #fff;
@@ -535,18 +562,28 @@ h1,h2,h3,h4,h5,h6{
         margin-top: 11033px;
         color: #fff;
     }
+
+    #contactenos{
+        margin-top: 11700px;
+        /* background: purple; */
+    }
 }
 
-@media screen and (min-width:412px){
+@media screen and (min-width: 412px){
     .container--images{
         margin-left: 45px;
     }
 }
 
-@media screen and (min-width:414px){
+@media screen and (min-width: 414px){
     .banner-contact .banner--content{
         margin-top: 11050px;
         color: #fff;
+    }
+
+    
+    #contactenos{
+        margin-top: 11700px;
     }
 }
 
@@ -646,6 +683,11 @@ h1,h2,h3,h4,h5,h6{
      );
      gap: 5px;
     }
+
+    #contactenos{
+        margin-top: 11900px;
+        /* background: purple;  */
+    }
     
     .container-us-text{
         width: 500px;
@@ -671,6 +713,15 @@ h1,h2,h3,h4,h5,h6{
         
    } */
 }
+
+@media screen and (min-width: 540px){
+
+    #contactenos{
+        margin-top: 11700px;
+        /* background: purple; */
+    }
+}
+
 
 @media screen and (min-width: 768px){
     .logo{
@@ -749,6 +800,11 @@ h1,h2,h3,h4,h5,h6{
      gap: 16px;
     }
 
+    #contactenos{
+        margin-top: 7720px;
+        /* background: purple; */
+    }
+
     .info-talleres {
         height: 200px;
         margin-left: -500px;    
@@ -771,6 +827,25 @@ h1,h2,h3,h4,h5,h6{
 
  
 
+
+
+
+}
+
+@media screen and (min-width: 853px){
+
+    #contactenos{
+        margin-top: 7600px;
+        /* background: purple; */
+    }
+}
+
+@media screen and (min-width: 912px){
+
+    #contactenos{
+        margin-top: 7520px;
+        /* background: purple; */
+    }
 
 
 
@@ -886,6 +961,12 @@ h1,h2,h3,h4,h5,h6{
         margin-left: 50px;
         width: 500px;
     }
+
+    #contactenos{
+        margin-top: 7700px;
+        /* background: purple; */
+    }
+
 }
 
 @media screen and (min-width:1600px) {
@@ -918,6 +999,13 @@ h1,h2,h3,h4,h5,h6{
     }
 
     
+}
+
+@media screen and (min-width:1280px){
     
+    #contactenos{
+        margin-top: 7600px;
+        /* background: purple; */
+    }
     
 }
